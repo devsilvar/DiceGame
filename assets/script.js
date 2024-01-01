@@ -64,7 +64,7 @@ btnRoll.addEventListener('click', function () {
 
     // to dispaly the dice whne rolled
     diceEL.classList.remove('hidden');
-    diceEL.src = `dice-${dice}.png`;
+    diceEL.src = `./assets/dice-${dice}.png`;
 
     function togglePlayer() {
       player1.classList.toggle('player--active');
